@@ -1,2 +1,0 @@
-# masteruah
-README.md
