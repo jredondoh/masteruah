@@ -14,11 +14,11 @@ Antes lo he subido a rinkeby. Esta es la transacción de subida.
  
    > account:             0xb9225C26F0390cC7eb9d9F530c423175f4273012
 
-![img](img/act_02_rinkeby_deployment.png)
+![img](img/act_02_rinkeby_deployment.PNG)
 
 Con metacoin funcionando en localhost 
 
-![img](img/act_02_metacoin_local_ok.png)
+![img](img/act_02_metacoin_local_ok.PNG)
 
 Lo he añadido a IPFS, obteniendo este hash:
 
@@ -29,4 +29,4 @@ https://ipfs.io/ipfs/QmPRyCYdJXAtocTdANCu1E1Y4t3yn1vqpiwNLgFXVmHPN3/dist/
 
 Accedo la aplicación y funciona como en localhost, generando la transacción: 0x93bd069efef7eb0f4bdcfdf89bd2703a1380327643f2b5ffb3bb9c4c30b549ad
 
-![img](img/act_02_metacoin_ipfs_ok.png)
+![img](img/act_02_metacoin_ipfs_ok.PNG)

@@ -11,15 +11,15 @@ Obteniendo como hash:
 
 90564f001281919c3204a73bc550bcf79fc4390937d574a586d89e9814efdb4501ee8afeb2199741d0a5aa6493a2cf244cc8d28fac3e4c03dacb1bc9ac677b57
 
-![img](img/act_03_swarm_upload.png)
+![img](img/act_03_swarm_upload.PNG)
 
 Después accedo con el navegador:
 
 http://localhost:8500/bzz:/90564f001281919c3204a73bc550bcf79fc4390937d574a586d89e9814efdb4501ee8afeb2199741d0a5aa6493a2cf244cc8d28fac3e4c03dacb1bc9ac677b57/index.html
 
-![img](img/act_03_index.png)
+![img](img/act_03_index.PNG)
 
 Y puedo navegar entre los enlaces sin que el hash de la barra de direcciones cambie:
 
-![img](img/act_03_doc1.png)
-![img](img/act_03_doc2.png)
+![img](img/act_03_doc1.PNG)
+![img](img/act_03_doc2.PNG)
