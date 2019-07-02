@@ -8,7 +8,7 @@ Códigos de operación del contrato inteligente
 
 > solc --opcodes --optimize hello_world.sol
 
-![Pantallazo](img/pic_4_opcodes.png)
+![Pantallazo](img/pic_4_opcodes.PNG)
 
 
  Identificadores de las funciones que existan dentro del contrato inteligente.
@@ -27,5 +27,5 @@ Estimación del gas utilizado por cada función
     get(): 398 gas
     set(uint256): 20167 gas,
 
-![Pantallazo](img/pic_4_gas_estimation.png)
+![Pantallazo](img/pic_4_gas_estimation.PNG)
 
