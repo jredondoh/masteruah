@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>MetaCoin | Truffle Webpack Demo w/ Frontend</title>
+  </head>
+  <style>
+    input {
+      display: block;
+      margin-bottom: 12px;
+    }
+  </style>
+  <body>
+  <h1>Carmen Sandiego — Dapp</h1>
+  <p>Jugador: <strong class="player_addr">loading...</strong>.</p>
+  <p>Hay <strong class="balance">loading...</strong> en juego, si encuentras a Carmen</p>
+
+    <h1>Encuentra a Carmen Sandiego!</h1>
+
+  <h2>A jugar!</h2>
+
+  <h4>System status: <p id="status"></p></h4>
+  <label for="guessWhere">Intenta acertar dónde está Carmen:</label>
+  <input type="text" id="guessWhere" placeholder="e.g. 1" />
+  <button onclick="App.guess()">Está Carmen donde tú crees?</button>
+  <p></p>
+  <h3>O...</h3>
+  <button onclick="App.move()">Mueve a Carmen</button>
+
+  <h3>Solo para "configurar" a Carmen (only for contract owner)</h3>
+  <label for="prev">Prev Whereabout:</label>
+  <input type="text" id="prev" placeholder="e.g. 1" />
+  <label for="curr">Curr Whereabout:</label>
+  <input type="text" id="curr" placeholder="e.g. 1" />
+  <label for="algorithm_addr">Algorithm address:</label>
+  <input type="text" id="algorithm_addr"
+placeholder="e.g. 0x93e66d9baea28c17d9fc393b53e3fbdd76899dae"
+    />
+  <button onclick="App.setup()">SetupCarmen</button>
+
+  <h3>Para depurar</h3>
+  <p>Carmen está en <strong class="currWhere">loading...</strong></p>
+  <button onclick="App.getWhere()">Dónde está Carmen?</button>
+    <script src="index.js"></script>
+  </body>
+</html>
